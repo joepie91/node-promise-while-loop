@@ -1,6 +1,6 @@
 {
   "name": "promise-while-loop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An asynchronous while-loop implementation with full support for Promises",
   "main": "index.js",
   "scripts": {
