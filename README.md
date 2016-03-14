@@ -22,6 +22,9 @@ function loop(pageNumber) {
 			}).then(function(recursiveResults) {
 				return [response.body].concat(recursiveResults);
 			});
+		} else {
+			// Done looping
+			return [response.body];
 		}
 	});
 }
